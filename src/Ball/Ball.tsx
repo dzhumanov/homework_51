@@ -1,6 +1,6 @@
 interface Props{
     value: number;
-}
+};
 
 const Ball = ({value}:Props) => {
     return(
@@ -8,6 +8,6 @@ const Ball = ({value}:Props) => {
             <p>{value}</p>
         </div>
     )
-}
+};
 
 export default Ball;

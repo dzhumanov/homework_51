@@ -31,9 +31,8 @@ function App() {
       {value: newNumbers[3]},
       {value: newNumbers[4]},
     ]);
+  };
 
-  }
-  
   return (
     <div className='App'>
       <button type='button' onClick={changeValues}>
@@ -48,6 +47,6 @@ function App() {
       </div>
     </div>
   );
-}
+};
 
 export default App;
